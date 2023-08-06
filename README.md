@@ -1,4 +1,4 @@
-# This repo contains course work for the [machine learning zoomcamp](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp) capstone project.
+# This repo contains my capstone project for the [machine learning zoomcamp](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp) which I completed.
 
 
 
