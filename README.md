@@ -9,3 +9,6 @@
 - [3. Running this project](#topic3)
 - [4. Summary](#topic4)
 - [5. Technologies used to complete this project](#topic5)
+
+
+<h2 id="topic1"> 1. About the project</h2>
