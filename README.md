@@ -19,6 +19,11 @@ This is a machine learning **classification** problem
 
 <h2 id="topic2"> 2. Project important files and folders explained</h2> 
 
+- **phishing_site_urls.csv:** This is the dataset used to train the machine learning model; it contains 549846 unique URL entries.
+and 2 columns, namely, URLs and labels.
+The Labels include two categories: Good and Bad. Good is a non-malicious URL. Bad is a malicious URL. The dataset is available to download on [Kaggle](https://www.kaggle.com/datasets/ashharfarooqui/phising-urls).
+
+- **malicious_url.ipynb:** This is a Jupyter Notebook where I carried out exploratory (EDA) data analysis on the dataset, processed the data, and experimented with different machine learning techniques to build this project.
 
 
 ![Phishing image](Images/maxresdefault.jpeg)
