@@ -17,6 +17,9 @@ Malicious URLs are web links created to achieve dubious acts like scams, frauds,
 Conventional approaches to combating these threats have depended on the use of blacklists and whitelists, which consist of URL listings classified as malicious or safe. Nevertheless, blacklists have limitations in terms of their applicability and their inability to safeguard against novel, unidentified malicious URLs. In this project, machine learning techniques will be applied to address this challenge. A machine learning model will be trained using a mathematical algorithm on datasets containing URL samples, comprising both malicious and legitimate URLs. This model will learn from the data to distinguish between what constitutes a legitimate URL and what characterises a malicious one. When provided with new URL samples, the model will generate predictions to classify them as either malicious or legitimate. Following this training, the model can be deployed for real-world usage in a production environment.
 This is a machine learning **classification** problem 
 
+![Phishing image](Images/maxresdefault.jpeg)
+[Image source](https://www.govtech.com/blogs/lohrmann-on-cybersecurity/what-to-do-about-phishing.html)
+
 <h2 id="topic2"> 2. Project important files and folders explained</h2> 
 
 - **phishing_site_urls.csv:** This is the dataset used to train the machine learning model; it contains 549846 unique URL entries.
@@ -25,6 +28,3 @@ The Labels include two categories: Good and Bad. Good is a non-malicious URL. Ba
 
 - **malicious_url.ipynb:** This is a Jupyter Notebook where I carried out exploratory (EDA) data analysis on the dataset, processed the data, and experimented with different machine learning techniques to build this project.
 
-
-![Phishing image](Images/maxresdefault.jpeg)
-[Image source](https://www.govtech.com/blogs/lohrmann-on-cybersecurity/what-to-do-about-phishing.html)
