@@ -29,3 +29,7 @@ The Label column contains two categories: Good and Bad. Good is a non-malicious 
 
 - **malicious_url.ipynb:** This is a Jupyter Notebook where I carried out exploratory (EDA) data analysis on the dataset, processed the data, and experimented with different machine learning techniques to build this project.
 
+- **model_url_model.pkl:** This is the trained model
+
+- **train.py:** This is the python script used to train the model
+
