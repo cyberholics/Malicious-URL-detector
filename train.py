@@ -34,6 +34,6 @@ print("model accuracy is: {}".format(model_accuracy))
 print("Done with training")
 
 # saving the model to disk
-pickle.dump(pipeline,open('model_url_model.pkl','wb'))
-
-print("model saved to disk")
+with open("final_model.pkl", "wb") as f_out:
+    pickle.dump(pipeline,f_out)
+    
