@@ -8,8 +8,8 @@ with open("final_model.pkl","rb") as f_in:
 #create a prediction function
 
 def predict_url(url):
-    prediction = final_model.predict(url)
-    return prediction
+    prediction = final_model.predict([url])
+    return prediction[0]
 
 #create web service 
 
