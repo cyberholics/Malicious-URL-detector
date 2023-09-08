@@ -24,12 +24,15 @@ This is a machine learning **classification** problem
 
 - **phishing_site_urls.csv:** This is the dataset used to train the machine learning model; it contains 549846 unique URL entries.
 and 2 columns, namely, URLs and labels.
-The URL columns contains samples of different URLs, for example, `mistershortcut.bravepages.com/tlfp1n9`, `cnajs.com/pic/Agatha%20Christie/dropbox/dropbox/` , `pro-football-reference.com/players/H/HarrIk00.htm`.
+The URL columns contain samples of different URLs, for example, `mistershortcut.bravepages.com/tlfp1n9`, `cnajs.com/pic/Agatha%20Christie/dropbox/dropbox/`, `pro-football-reference.com/players/H/HarrIk00.htm`.
 The Label column contains two categories: Good and Bad. Good is a non-malicious URL. Bad is a malicious URL. The dataset is available to download on [Kaggle](https://www.kaggle.com/datasets/ashharfarooqui/phising-urls).
 
 - **malicious_url.ipynb:** This is a Jupyter Notebook where I carried out exploratory (EDA) data analysis on the dataset, processed the data, and experimented with different machine learning techniques to build this project.
 
 - **final_model.pkl:** This is the trained model
 
-- **train.py:** This is the python script used to train the model
+- **train.py:** This is the Python script used to train the model
+  
+- **predict.py** This is a Python script for the web service, which was built with Flask, This script serve the model as a RESTful API to the request.py script to make inferences with the model
 
+- **request.py** This Python script is used to make inferences with the model, This script prompts users to enter a URL sample and sends the URL as a POST request to the web service script to make predictions.
