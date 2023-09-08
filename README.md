@@ -33,6 +33,8 @@ The Label column contains two categories: Good and Bad. Good is a non-malicious 
 
 - **train.py:** This is the Python script used to train the model
   
-- **predict.py** This is a Python script for the web service, which was built with Flask, This script serve the model as a RESTful API to the request.py script to make inferences with the model
+- **predict.py** This is a Python script for the web service, which was built with Flask. This script serves the model as a RESTful API to the request.py script to make inferences with the model
 
 - **request.py** This Python script is used to make inferences with the model, This script prompts users to enter a URL sample and sends the URL as a POST request to the web service script to make predictions.
+
+- **Pipfile & Pipfile.lock** These are configuration files used for managing Python dependencies and packages in this project
