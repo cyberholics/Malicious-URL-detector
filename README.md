@@ -40,3 +40,6 @@ The Label column contains two categories: Good and Bad. Good is a non-malicious 
 - **Pipfile & Pipfile.lock** These are configuration files used for managing Python dependencies and packages in this project
 
 - **dockerfile** This is a docker image file for deploying the model to docker container
+  
+
+If you have any questions, reach out to me via email at victorkingoshimua@gmail.com
