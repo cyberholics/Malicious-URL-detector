@@ -7,8 +7,8 @@
 - [1. About the project](#topic1)
 - [2. Project important files and folder explained](#topic2)
 - [3. Running this project](#topic3)
-- [4. Summary](#topic4)
-- [5. Technologies used to complete this project](#topic5)
+- [4. Project demo](#topic4)
+
 
 
 <h2 id="topic1"> 1. About the project</h2> 
@@ -41,15 +41,20 @@ The Label column contains two categories: Good and Bad. Good is a non-malicious 
 
 - **dockerfile** This is a docker image file for deploying the model to docker container
 
-## Running this project
+h2 id="topic3"> 3. Running this project</h2> 
+
 To try out this project, follow these steps:
 
 1. Clone this repository by running this command: `https://github.com/cyberholics/Malicious-URL-detector.git`
 2. Enter the project directory:` cd Malicious-URL-detector`
 3. Build the docker image: docker `build -t Malicious-URL-detector .`
-4. Run the docker container: `docker run -it --rm -p 9696:9696 Malicious-URL-detector` (Make sure you have docker running) 
+4. Run the docker container: `docker run -it --rm -p 9696:9696 Malicious-URL-detector` (Make sure you have docker running.) 
 5. Open another terminal and run `cd Malicious-URL-detector`. Next, run `python request.py`. This will prompt you to enter a URL sample, so enter any URL sample to get a prediction of whether the URL is malicious or good.
-## Project demo
-![I Tried various URL samples ]()
+   
+h2 id="topic4"> 4. Project demo</h2> 
+
+I tried: `www.youtube.com/`, `www.grammarly.com/plagiarism-checker `, `www.yeniik.com.tr/wp-admin/js/login.alibaba.com/login.jsp.php`, `www.tubemoviez.exe/`, `www.svision-online.de/mgfi/administrator/components/com_babackup/classes/fx29id1.txt`.
+
+![I Tried various URL samples ](https://github.com/cyberholics/Malicious-URL-detector/blob/main/Images/project%20demo.png)
 
 If you have any questions, reach out to me via email at victorkingoshimua@gmail.com
