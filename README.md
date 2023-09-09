@@ -47,7 +47,7 @@ To try out this project, follow these steps:
 1. Clone this repository by running this command: `https://github.com/cyberholics/Malicious-URL-detector.git`
 2. Enter the project directory:` cd Malicious-URL-detector`
 3. Build the docker image: docker `build -t Malicious-URL-detector .`
-4. Run the docker container: `docker run -it --rm -p 9696:9696 Malicious-URL-detector`
+4. Run the docker container: `docker run -it --rm -p 9696:9696 Malicious-URL-detector` (Make sure you have docker running) 
 5. Open another terminal and run `cd Malicious-URL-detector`. Next, run `python request.py`. This will prompt you to enter a URL sample, so enter any URL sample to get a prediction of whether the URL is malicious or good.
 ## Project demo
 ![I Tried various URL samples ]()
